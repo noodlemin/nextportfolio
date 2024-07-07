@@ -3,11 +3,11 @@ import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import MagicButton from './ui/MagicButton';
 import { FaLocationArrow } from 'react-icons/fa6';
-import { FaLinkedin } from "react-icons/fa6";
+import { FaDownload } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className='pb-20 pt-36'>
+    <div className='pb-20 pt-48 relative'>
       <div>
         <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white' />
         <Spotlight className='-top-10 -left-full h-[80vh] w-[50vw]' fill='purple' />
@@ -33,9 +33,9 @@ const Hero = () => {
             Developer
           </p>
           <div className='flex gap-4'>
-            <a href="#about">
+            <a href="#RecentProjects">
               <MagicButton
-                title='Show my work'
+                title='Explore My Projects'
                 icon={<FaLocationArrow />}
                 position='right'
               />
@@ -43,7 +43,7 @@ const Hero = () => {
             <a href="/resume.pdf">
               <MagicButton
                 title='Download CV'
-                icon={<FaLocationArrow />}
+                icon={<FaDownload />}
                 position='right'
               />
             </a>

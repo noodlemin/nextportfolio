@@ -75,7 +75,7 @@ export const navItems = [
       title: "3D Solar System Planets to Explore",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ['/html.svg', '/css.svg', 'javascript.svg'],
       link: "https://github.com/adrianhajdin?tab=repositories",
     },
     {
@@ -203,15 +203,15 @@ export const navItems = [
   
   export const socialMedia = [
     {
-      id: 1,
+      id: '1',
       img: "/git.svg",
     },
     {
-      id: 2,
+      id: '2',
       img: "/twit.svg",
     },
     {
-      id: 3,
+      id: '3',
       img: "/link.svg",
     },
   ];
