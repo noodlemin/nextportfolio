@@ -7,7 +7,7 @@ import { FaDownload } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className='pb-20 pt-48 relative'>
+    <div className='pb-20 pt-20 relative'>
       <div>
         <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white' />
         <Spotlight className='-top-10 -left-full h-[80vh] w-[50vw]' fill='purple' />
@@ -33,7 +33,7 @@ const Hero = () => {
             Developer
           </p>
           <div className='flex gap-4'>
-            <a href="#RecentProjects">
+            <a href="#projects">
               <MagicButton
                 title='Explore My Projects'
                 icon={<FaLocationArrow />}

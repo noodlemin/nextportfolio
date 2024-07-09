@@ -72,11 +72,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      title: "Responsive Portfolio Website",
+      des: "Responsive Personal Portfolio Website Using HTML CSS & JavaScript.",
+      img: "/p1.png",
       iconLists: ['/html.svg', '/css.svg', 'javascript.svg'],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://github.com/noodlemin/portfolio",
     },
     {
       id: 2,
@@ -205,13 +205,15 @@ export const navItems = [
     {
       id: '1',
       img: "/git.svg",
+      link: "https://github.com/noodlemin"
     },
+    // {
+    //   id: '2',
+    //   img: "/twit.svg",
+    // },
     {
       id: '2',
-      img: "/twit.svg",
-    },
-    {
-      id: '3',
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/minkimdg"
     },
   ];
